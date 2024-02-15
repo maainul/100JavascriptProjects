@@ -19,6 +19,14 @@ function addTask() {
     saveData()
 }
 
+// Handle Enter key press
+inputBox.addEventListener('keypress', function (event) {
+    if (event.key === 'Enter') {
+        addTask();
+    }
+})
+
+
 // checked and removed element
 listContainer.addEventListener("click", function (e) {
     if (e.target.tagName === "LI") {
