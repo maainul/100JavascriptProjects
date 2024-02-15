@@ -2,36 +2,39 @@
 
 ## Beginner Projects (1-30):
 
-1.	To-Do List App
-2.	Simple Calculator
-3.	Stopwatch
-4.	Digital Clock
-5.	Random Quote Generator
-6.	Weather App (fetch weather data from an API)
-7.	Countdown Timer
-8.	Interactive Quiz App
-9.	BMI Calculator
-10.	Tip Calculator
-11.	Simple Form Validation
-12.	Image Slider
-13.	Memory Game
-14.	Dice Roll Simulator
-15.	Countdown to a Specific Date
-16.	Color Picker Tool
-17.	Basic Drawing App
-18.	Pomodoro Timer
-19.	Currency Converter
-20.	Interactive Map (using Google Maps API)
-21.	Music Player
-22.	Flashcards App
-23.	Note-taking App
-24.	Hangman Game
-25.	Typing Speed Test
-26.	Quiz with Timer and Score Counter
-27.	Word Counter Tool
-28.	Interactive Calendar
-29.	Expense Tracker
-30.	Animated Progress Bar
+### 1.	To-Do List App
+![image](https://github.com/maainul/100JavascriptProjects/assets/37740006/591dbf47-aa5b-4f58-ae20-3a81c3a3167f)
+![image](https://github.com/maainul/100JavascriptProjects/assets/37740006/9af327c2-1a3c-4a27-bf0c-3992b8cdaa82)
+
+3.	Simple Calculator
+4.	Stopwatch
+5.	Digital Clock
+6.	Random Quote Generator
+7.	Weather App (fetch weather data from an API)
+8.	Countdown Timer
+9.	Interactive Quiz App
+10.	BMI Calculator
+11.	Tip Calculator
+12.	Simple Form Validation
+13.	Image Slider
+14.	Memory Game
+15.	Dice Roll Simulator
+16.	Countdown to a Specific Date
+17.	Color Picker Tool
+18.	Basic Drawing App
+19.	Pomodoro Timer
+20.	Currency Converter
+21.	Interactive Map (using Google Maps API)
+22.	Music Player
+23.	Flashcards App
+24.	Note-taking App
+25.	Hangman Game
+26.	Typing Speed Test
+27.	Quiz with Timer and Score Counter
+28.	Word Counter Tool
+29.	Interactive Calendar
+30.	Expense Tracker
+31.	Animated Progress Bar
 
 ## Intermediate Projects (31-70): 
 
