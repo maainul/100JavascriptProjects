@@ -27,7 +27,9 @@
 21.	Interactive Map (using Google Maps API)
 22.	Music Player
 23.	Flashcards App
-24.	Note-taking App
+### 24.Note-taking App
+![image](https://github.com/devression/Notes-App/assets/37740006/e95d1af6-ee20-469f-95e1-1f17c95ef366)
+
 25.	Hangman Game
 26.	Typing Speed Test
 27.	Quiz with Timer and Score Counter
