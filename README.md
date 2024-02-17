@@ -12,7 +12,7 @@
 6.	Random Quote Generator
 7.	Weather App (fetch weather data from an API)
 8.	Countdown Timer
-9.	Interactive Quiz App
+### 9.	Interactive Quiz App
 ![image](https://github.com/maainul/100JavascriptProjects/assets/37740006/e4c0e1a8-cdd7-4388-beaa-66ee5a556290)
 
 10.	BMI Calculator
