@@ -9,7 +9,9 @@
 3.	Simple Calculator
 4.	Stopwatch
 5.	Digital Clock
-6.	Random Quote Generator
+### 6.	Random Quote Generator
+![image](https://github.com/maainul/100JavascriptProjects/assets/37740006/1d90263a-18de-4573-8f38-96304f0e0bf3)
+
 7.	Weather App (fetch weather data from an API)
 8.	Countdown Timer
 ### 9.	Interactive Quiz App
