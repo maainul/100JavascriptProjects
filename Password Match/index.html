@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Match</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="myForm">
+            <form id="myForm">
+                <div class="input-elements">
+                    <div class="input-box">
+                        <label>Password</label>
+                        <input type="password" id="password" placeholder="Enter Your Password" />
+                    </div>
+                    <div class="input-box">
+                        <label>Password</label>
+                        <input type="password" id="retype_password" placeholder="Enter Your Password" />
+                    </div>
+                    <p id="message"></p>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let myForm = document.getElementById("myForm")
+        let password = document.getElementById('password')
+        let rPassword = document.getElementById('retype_password')
+        let message = document.getElementById('message')
+
+        rPassword.addEventListener("input", () => {
+            console.log(password.value)
+            console.log(rPassword.value)
+            if (password.value != rPassword.value) {
+                message.innerHTML = "password don't match"
+                message.style.color = 'red'
+            } else {
+                message.innerHTML = "Password match"
+                message.style.color = 'green'
+            }
+
+        })
+    </script>
+</body>
+
+</html>
