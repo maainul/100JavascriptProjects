@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div>
+        <form id="form">
+            <div>
+                <label>Name</label>
+                <input type="text" id="username" placeholder="Enter username"/>
+                <span id="username_error"></span>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter email"/>
+                <span id="email_error"></span>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" id="password" placeholder="Enter password"/>
+                <span id="password_error"></span>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        
+
+        const username = document.getElementById('username')
+        const email = document.getElementById('email')
+        const password = document.getElementById('password')
+        const form = document.getElementById('form')
+        const username_error = document.getElementById('username_error')
+        const email_error = document.getElementById('email_error')
+        const password_error = document.getElementById('password_error')
+
+        
+
+
+        form.addEventListener('submit',(e)=>{
+          
+            if(username.value === '' || username.value == null){
+                e.preventDefault()
+                username_error.innerHTML = 'Name is requied'
+            }else{
+                username_error.innerHTML = ''
+            }
+            if(email.value === '' || email.value == null){
+                e.preventDefault()
+                email_error.innerHTML = 'Email is required'
+            }else{
+                email_error.innerHTML = ''
+            }
+
+            if(password.value === '' || password.value == null){
+                e.preventDefault()
+                password_error.innerHTML = 'Password is required'
+            }else{
+                password_error.innerHTML = ''
+            }
+        })
+
+
+
+
+    </script>
+</body>
+</html>
