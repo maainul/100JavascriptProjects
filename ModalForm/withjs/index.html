@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <button id="show-login">Login</button>
+    <div class="overlay"></div>
+    <div class="popup">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <div class="form">
+            <h2>Login</h2>
+            <div class="form-element">
+                <labe for="email">Email</labe>
+                <input type="text" placeholder="Enter User email">
+            </div>
+            <div class="form-element">
+                <labe for="email">Password</labe>
+                <input type="password" placeholder="password">
+            </div>
+            <button>Submit</button>
+        </div>
+    </div>
+
+
+    <script>
+
+        document.getElementById("show-login").addEventListener('click', function () {
+            document.querySelector('.overlay').classList.add('showOverlay')
+            document.querySelector('.popup').classList.add('showPopup')
+        })
+
+        document.getElementById('close-btn').addEventListener('click', function () {
+            document.querySelector('.overlay').classList.remove('showOverlay')
+            document.querySelector('.popup').classList.remove('showPopup')
+        })
+
+    </script>
+
+</body>
+
+</html>
