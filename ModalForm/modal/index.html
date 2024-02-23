@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(0, 0, 0, 0.3);
+            z-index: -1;
+            opacity: 0;
+        }
+
+        .showOverlay {
+            z-index: 1;
+            opacity: 1;
+        }
+
+        .popup {
+            background-color: aquamarine;
+            padding: 30px;
+            border-radius: 10px;
+            position: absolute;
+            top: -50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .showPopup {
+            top: 50%;
+            z-index: 1;
+        }
+
+
+
+        .popup form div {
+            padding-bottom: 10px;
+
+        }
+
+        .popup form div label {
+            display: block;
+        }
+
+        .close-btn {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            height: 20px;
+            width: 20px;
+            background-color: antiquewhite;
+            line-height: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            background-color: rgb(0, 29, 19);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="show-modal">Login</button>
+    <div class="overlay"></div>
+
+    <div class="popup">
+        <div>Modal Form</div>
+        <div class="close-btn">&times;</div>
+        <form>
+            <div>
+                <label>Username</label>
+                <input type="text" placeholder="enter name" />
+            </div>
+            <div>
+                <label>Username</label>
+                <input type="text" placeholder="enter name" />
+            </div>
+        </form>
+    </div>
+
+
+    </div>
+
+
+    <script>
+
+        document.getElementById('show-modal').addEventListener('click', function () {
+            document.querySelector('.overlay').classList.add('showOverlay')
+            document.querySelector('.popup').classList.add('showPopup')
+
+        })
+
+        document.querySelector('.close-btn').addEventListener('click', function () {
+            document.querySelector('.overlay').classList.remove('showOverlay')
+            document.querySelector('.popup').classList.remove('showPopup')
+
+        })
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

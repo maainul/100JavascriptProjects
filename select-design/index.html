@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        .select-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            min-width: 250px;
+            height: 50px;
+        }
+
+        .select-box {
+            border: none;
+            appearance: none;
+            padding: 0 30px 0 15px;
+            width: 100%;
+            color: white;
+            background-color: #2873ff;
+            font-size: 18px;
+            outline: none;
+            /* Remove outline on focus */
+        }
+
+        .select-box:focus {
+            border: none;
+        }
+
+        .icon-container {
+            width: 50px;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #023ca9;
+        }
+
+        .icon-container i {
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="select-container">
+        <select class="select-box">
+            <option value="">Select an Option</option>
+            <option value="first">First</option>
+            <option value="second">Second</option>
+            <option value="third">Third</option>
+            <option value="fourth">Fourth</option>
+        </select>
+        <div class="icon-container">
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+    </div>
+
+</body>
+
+</html>
