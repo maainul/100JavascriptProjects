@@ -26,36 +26,60 @@
                     <div class="nav-links" id="nav_links">
                         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="course.html">Course</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Course</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </a>
                 <i class="fa-solid fa-bars" onclick="showMenu()"> </i>
             </nav>
-            <h1>About Us</h1>
+            <h1>Contact Us</h1>
         </section>
 
-        <!-- --------------- About Us Content ------------------------ -->
-        <section class="about-us">
+        <!-- --------------- Contact Us Content ------------------------ -->
+        <section class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29160.67271963345!2d90.26612135!3d23.992807499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1708880886212!5m2!1sen!2sbd"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-us">
             <div class="row">
-                <div class="about-col">
-                    <h1>We are the world's largest university</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Est aspernatur illo, iste adipisci ut tenetur esse sunt,
-                        amet inventore laborum minima molestiae illum nisi unde dignissimos sequi?
-                        Facere, mollitia voluptas.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Est aspernatur illo, iste adipisci ut tenetur esse sunt,
-                        amet inventore laborum minima molestiae illum nisi unde dignissimos sequi?
-                        Facere, mollitia voluptas.</p>
-                    <a href="" class="hero-btn red-btn">Explore Now</a>
+                <div class="contact-col">
+                    <div>
+                        <i class="fa-solid fa-phone contact-icon"></i>
+                        <span>
+                            <h5>+1 012547895</h5>
+                            <p>Monday to Saturday, 10AM to 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-house contact-icon"></i>
+                        <span>
+                            <h5>XYZ ROAD,ABC Building</h5>
+                            <p>Dhaka,Bangladesh</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-envelope contact-icon"></i>
+                        <span>
+                            <h5>info@education.com </h5>
+                            <p>Dhaka,Bangladesh</p>
+                        </span>
+                    </div>
                 </div>
-                <div class="about-col">
-                    <img src="img/about.jpg" alt="">
+                <div class="contact-col">
+                    <form>
+                        <input type="text" name="" id="" placeholder="Enter your name" required>
+                        <input type="text" name="" id="" placeholder="Enter your email" required>
+                        <input type="text" name="" id="" placeholder="Enter your subject" required>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button type="submit" class="hero-btn red-btn contact-btn">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
